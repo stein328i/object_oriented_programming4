@@ -1,0 +1,19 @@
+
+<p class = 'contact_number'>Number of Contacts = <%= @contacts.length %></p>
+
+
+ <ol class='contact_container'>
+  <% @contacts.each do |contact| %>
+  	<li>
+      <a href="/contacts/<%=contact.id %>">
+      <%= contact.first_name %>
+  	   <%= contact.last_name %>
+  	   (<%= contact.email %>)
+  	    <% contact.note %>
+      </a>
+      <p>edit | delete</p>
+    </li>
+
+  <% end %>
+
+ </ol>

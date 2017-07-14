@@ -1,0 +1,58 @@
+body {
+  margin: 0 80px;
+  font-family: Arial, Helvetica;
+  list-style: none;
+}
+
+header {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav li {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.39);
+  border-bottom:solid white 2px;
+
+}
+
+.contact_container li {
+  list-style: none;
+  padding: 30px;
+  background-color: #ada;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+ol.contact_container {
+    padding: 0;
+}
+.contact_number {
+  padding: 10px;
+  background-color: #ff8f00;
+  margin-left: 60;
+}
+
+
+a {
+  color: white
+}
+
+main {
+  margin: 0 20px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
