@@ -20,7 +20,16 @@ nav li {
   padding: 10px;
   background-color: rgba(128, 128, 128, 0.39);
   border-bottom:solid white 2px;
+}
 
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact_container li a {
+  color: black;
+  text-decoration: none;
 }
 
 .contact_container li {
@@ -34,15 +43,11 @@ nav li {
 ol.contact_container {
     padding: 0;
 }
+
 .contact_number {
   padding: 10px;
   background-color: #ff8f00;
   margin-left: 60;
-}
-
-
-a {
-  color: white
 }
 
 main {

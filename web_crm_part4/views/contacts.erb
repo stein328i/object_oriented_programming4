@@ -11,7 +11,7 @@
   	   (<%= contact.email %>)
   	    <% contact.note %>
       </a>
-      <p>edit | delete</p>
+      <p><a href="/contacts/<%=contact.id%>/edit">edit</a> | <a href="/contacts/<%=contact.id%>/delete">delete</a></p>
     </li>
 
   <% end %>
